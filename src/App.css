@@ -1,0 +1,91 @@
+.Main{
+background-color: bisque;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 200px;
+margin-right: 200px;
+width: 30%;
+height: 60%;
+display: flex;
+align-content: center;
+border-radius: 3%;
+box-shadow:  200px ;
+box-shadow: black;
+
+}
+.Sub-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+}
+.E-mail{
+    margin-top: 20px;
+}
+
+
+.btn{
+    color: white;
+    background-color: palevioletred;
+    height: 20px;
+    width: 100%;
+    border: none;
+   /* border-radius: 10%;
+   
+    box-shadow: 20px,black;
+*/
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(178, 178, 230);
+}
+
+.form {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.form-title { 
+    color: rgb(69, 67, 67);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-style {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(138, 137, 137);
+    outline: none; 
+    border-radius: 10px;
+}
+
+.input-title {
+    color: rgb(33, 32, 32);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(210, 78, 78);
+    color: aliceblue;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
